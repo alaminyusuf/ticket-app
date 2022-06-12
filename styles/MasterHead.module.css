@@ -1,0 +1,39 @@
+.container {
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  flex: 1;
+  background-image: url('../public/career.svg');
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: cover;
+}
+
+.left {
+  display: grid;
+  flex: 1;
+}
+
+.logo {
+  background-image: url('../public/invoice.png');
+  background-repeat: no-repeat;
+  float: left;
+  color: green;
+}
+
+.centered {
+  margin: 0 auto;
+  font-size: 2.5rem;
+  width: 75%;
+  place-items: center;
+}
+
+.span {
+  color: forestgreen;
+  text-transform: capitalize;
+}
