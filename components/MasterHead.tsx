@@ -1,24 +1,26 @@
 import { FC } from 'react';
-import styles from '../styles/MasterHead.module.css';
 import Directives from './Directives';
 
 const Header: FC = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.left}>
-        <div className={styles.logo}></div>
+    <div className='flex justify-between text-white'>
+      <div className='flex-1 grid'>
+        <div className="bg-[url('../public/invoice.png')]  bg-no-repeat"></div>
 
-        <div className={styles.centered}>
+        <div className='mx-auto w-eighty text-4xl place-items-center'>
           <h3>
-            <span className={styles.span}>withness</span> a lofty{' '}
-            <span className={styles.span}>success</span> with automated{' '}
-            <span className={styles.span}>invoicing</span> system
+            <span className='text-forestgreen capitalize'>withness</span> a
+            lofty <span className='text-forestgreen captalize'>success</span>{' '}
+            with automated{' '}
+            <span className='text-forestgreen captalize'>invoicing</span> system
           </h3>
           <Directives />
         </div>
       </div>
 
-      <div className={styles.right}></div>
+      <div className='flex-1'>
+        <div className="bg-[url('../public/career.svg')] h-landing bg-cover"></div>
+      </div>
     </div>
   );
 };
