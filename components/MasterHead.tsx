@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import styles from '../styles/MasterHead.module.css';
+import Directives from './Directives';
 
 const Header: FC = () => {
   return (
@@ -13,6 +14,7 @@ const Header: FC = () => {
             <span className={styles.span}>success</span> with automated{' '}
             <span className={styles.span}>invoicing</span> system
           </h3>
+          <Directives />
         </div>
       </div>
 
