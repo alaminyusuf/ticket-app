@@ -1,5 +1,4 @@
 .container {
-  background-color: black;
   color: #fff;
   width: 100%;
   display: flex;
@@ -34,6 +33,6 @@
 }
 
 .span {
-  color: forestgreen;
+  color: #228b22;
   text-transform: capitalize;
 }
