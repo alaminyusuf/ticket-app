@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Bid from '../components/Bid';
 import MasterHead from '../components/MasterHead';
 import Vision from '../components/Vision';
 
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
 
       <MasterHead />
       <Vision />
+      <Bid />
     </div>
   );
 };
